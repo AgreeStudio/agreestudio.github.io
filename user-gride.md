@@ -116,24 +116,19 @@
     ![组件的样式编辑](/images/user-guide/elementstyle.gif)
   - 查看当前选中组件的样式表<p>
     点击组件，在右侧展示当前组件的所有样式表
-  
     ![查看当前选中组件的样式表](/images/user-guide/findstyle.gif)
   - 查看当前命中样式表会影响哪些组件<p>
     将鼠标悬浮到样式表上，就可以在页面区域看到影响的组件背景变蓝了
-  
     ![查看当前命中样式表会影响哪些组件](/images/user-guide/findelement.gif)
   - 样式表的添加<p>
     将鼠标悬浮到任意样式表上，点击左上角的添加按钮
-  
     ![样式表的添加](/images/user-guide/styleadd.gif)
   - 样式表的删除<p>
     将鼠标悬浮到要删除的样式表上，点击左上角的删除按钮
     ![样式表的删除](/images/user-guide/styledelete.gif)
   - 样式表的修改<p>
-  
     ![样式表的修改](/images/user-guide/stylemodify.gif)
     点击要修改的样式表，就可以编辑该样式表
-
 
 ### 3.2 自定义组件
   1.在`{当前开发工程}/src/custom-components`文件夹右键 - [新建自定义组件] 输入自定义组件名称即可快速创建一个自定义组件
