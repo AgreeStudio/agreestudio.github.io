@@ -1,3 +1,3 @@
 # 简介
 
-A powerful Vue.js IDE.
+AgreeStudio 使用手册
