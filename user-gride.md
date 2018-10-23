@@ -170,6 +170,53 @@
   ![快捷操作](/images/user-guide/快捷操作1.gif)
 
 ## 4. 服务工程开发
+### 4.1 创建服务工程
+  - 服务工程目录结构说明
+    1. bank: 存储银行自定义组件
+    2. business: 存储公共业务逻辑描述[lfc]文件
+    3. dataDictionary: 存储数据字典[ade]文件
+    4. dataModel: 存储服务数据模型[xm]文件
+    5. resource: 存储公共资源文件
+    6. servers: 存储微服务描述[csd]文件
+    7. .csp: 存储已发布的服务相关信息
+### 4.2 新建
+  #### 4.2.1 新建服务工程
+  - 说明：工程创建
+    ![创建服务工程](/images/user-guide/创建服务工程.gif)
+  #### 4.2.2 新建数据字典文件[ade]
+  - 说明：ade文件建在dataDictionary文件夹下
+    ![新建ade文件](/images/user-guide/新建ade文件.gif)
+  #### 4.2.3 新建数据模型文件[xm]
+  - 说明：xm文件建在dataModel文件夹下
+    ![新建xm文件](/images/user-guide/新建xm文件.gif)
+  #### 4.2.4 新建微服务文件[csd]
+  - 说明：csd文件建在servers文件夹下
+    ![新建csd文件](/images/user-guide/新建csd文件.gif)
+   #### 4.2.5 新建业务逻辑文件[lfc]
+  - 说明：lfc文件建在business文件夹下
+    ![新建lfc文件](/images/user-guide/新建lfc文件.gif)
+
+### 4.3 文件引用
+   #### 4.3.1 ade文件的继承
+   - 说明：ade文件的继承，弹窗支持快速搜索功能
+    ![ade文件的继承](/images/user-guide/ade文件的继承.gif)
+   #### 4.3.2 xm文件引用ade和xm
+   - 说明：xm文件的引用，弹窗支持快速搜索功能
+    ![xm引用ade和xm](/images/user-guide/xm文件引用ade和xm.gif)
+   #### 4.3.3 csd文件引用ade、xm、lfc
+   - 说明：csd文件的引用,弹窗支持快速搜索功能
+    ![csd文件引用](/images/user-guide/csd文件的引用.gif)
+   #### 4.3.4 lfc文件引用ade、lfc，服务已发布成功的csd
+   - 说明：lfc文件的引用，支持属性编辑功能， 弹窗支持快速搜索功能
+    ![csd文件引用](/images/user-guide/lfc文件的引用.gif)
+
+
+### 4.4 微服务发布
+   #### 4.4.1 csd服务发布
+   - 说明: 服务发布，第一次发布需要手动配置ip和端口, 发布需要等待一段时间，发布成功后会有提示弹窗
+    ![服务发布](/images/user-guide/服务发布.gif)
+   - 说明：发布成功后的弹窗
+    ![服务发布成功](/images/user-guide/服务发布成功.png)
 
 ## 5. 项目调试
   支持通过devTools面板进行调试，可通过如下方式打开调试面板：
