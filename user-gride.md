@@ -59,7 +59,10 @@
 
 ### 3.1 vue文件编辑
   *在文件树单击或右键选择vue_editor即可以可视化编辑方式打开vue文件*
-  #### 页面编辑
+  #### Vue-md 页面编辑
+
+  <div style='display: none'>
+  #### 可视化页面编辑
   *左侧选择 [页面] 进入页面编辑模式*
   - 添加组件
     在左侧工具栏中选择某个组件、拖动至页面中即可快速的在页面中添加一个组件
@@ -83,28 +86,8 @@
   - 项目预览
     在可视化编辑视图顶部工具栏可以预览项目的运行状态、横竖屏显示、缩放比例、更改设备等操作
     ![项目预览](/images/user-guide/项目预览.gif)
-  #### 逻辑编辑
-  *左侧选择 [逻辑] 进入逻辑编辑模式*
-  - data域
-    data域可编辑文件的data数据部分，复杂数据类型可使用json可视化编辑方式 [参考 3.2 json文件编辑]
-    ![data域](/images/user-guide/data域.gif)
-  - methods域
-    methods域可编辑文件的methods数据部分
-    ![methods域](/images/user-guide/methods域1.gif)
-    在methods域点击右上角按钮可以快速引入`Aui`、`AgreeSDK`代码
-    ![methods域](/images/user-guide/methods域2.gif)
-  - computed域
-    computed域可编辑文件的computed数据部分
-    ![computed域](/images/user-guide/computed域.gif)
-  - watch域
-    watch域可编辑文件的watch数据部分
-    ![watch域](/images/user-guide/watch域.gif)
-  - 生命周期域
-    生命周期域可以绑定生命周期函数
-    ![生命周期域](/images/user-guide/生命周期域.gif)
-  - 总览
-    总览区以文本方式展示了vue文件的`script`标签部分的全部内容
-    ![总览](/images/user-guide/总览.png)
+    </div>
+    
   #### 样式表编辑
   *左侧选择 [样式表] 进入样式表编辑模式*
   - 样式表编辑<p>
@@ -141,25 +124,47 @@
   5.在工程页面中使用该组件
   ![使用自定义组件](/images/user-guide/使用自定义组件.gif)
 
-### 3.3 json文件编辑
+### 3.3 模板
+
+### 3.4 json文件编辑
   json类型文件支持可视化编辑方式
   ![jsonEditor](/images/user-guide/jsonEditor.gif)
 
-### 3.4 其他类型文件编辑
+### 3.5 aft文件编辑
+
+### 3.6 其他类型文件编辑
   其它文本类型文件使用文本编辑器编辑
    ![文本编辑器](/images/user-guide/文本编辑器.gif)
 
-### 3.5 图片预览
+### 3.7 图片预览
   图片类型支持图片预览、缩放操作
   ![图片预览](/images/user-guide/图片预览.gif)
 
-### 3.6 辅助视图
+### 3.8 辅助视图
   1.辅助视图中分为[终端],[输出],[调试控制台],[问题]四部分。
   ![辅助视图](/images/user-guide/辅助视图.gif)
   2.[终端]视图用户可以输入命令；
   ![终端](/images/user-guide/终端.gif)
 
-### 3.7 快捷操作
+## 4. 服务工程开发
+
+### 4.1 LFC文件编辑
+
+## 5. 项目调试
+  支持通过devTools面板进行调试，可通过如下方式打开调试面板：
+  1. F12热键打开
+  2. 顶部菜单栏选择 [帮助] - [打开开发者工具]
+
+## 6. 首选项
+
+## 7. 全局搜索
+
+## 8. 构建工程
+  1. 顶部菜单栏选择 [文件] - [构建工程]
+  2. 等待底部状态栏显示 `工程构建成功` 即为构建成功，相关文件保存在`{Agree Studio安装目录}\studiobuild\app\build`下
+  ![构建工程](/images/user-guide/构建工程.png)
+
+## 9. 快捷操作
   Agree Studio支持如下快捷操作：
   - 快速关闭标签页
     1. 关闭当前标签页 `Alt + c`
@@ -168,30 +173,3 @@
     4. 关闭右侧标签页 `Alt + n`
     5. 关闭其它标签页 `Alt + s`
   ![快捷操作](/images/user-guide/快捷操作1.gif)
-
-## 4. 服务工程开发
-
-## 5. 项目调试
-  支持通过devTools面板进行调试，可通过如下方式打开调试面板：
-  1. F12热键打开
-  2. 顶部菜单栏选择 [帮助] - [打开开发者工具]
-
-## 6. 构建工程
-  1. 顶部菜单栏选择 [文件] - [构建工程]
-  2. 等待底部状态栏显示 `工程构建成功` 即为构建成功，相关文件保存在`{Agree Studio安装目录}\studiobuild\app\build`下
-  ![构建工程](/images/user-guide/构建工程.png)
-
-## 7. 错误码说明：
-
-| 错误码 |          描述           |
-| :----: | :---------------------: |
-|  400   |      invalid param      |
-|  401   |      unauthorized       |
-|  403   |        forbidden        |
-|  404   |        not found        |
-|  500   |  internal server error  |
-|  503   |      service busy       |
-|  1301  |     file not exists     |
-|  1401  |    no active project    |
-|  1402  | node_modules not exists |
-|  1403  | project already started |
