@@ -57,8 +57,6 @@
   1.文件打开方式新增[vue编辑器(MD模式)],支持组件库快捷键输入。
   ![vue编辑器(MD模式)](/images/user-guide/vue编辑器(MD模式).gif)
 
-
-  <div style='display: none'>
   #### 可视化页面编辑
   *左侧选择 [页面] 进入页面编辑模式*
   - 添加组件
@@ -83,8 +81,7 @@
   - 项目预览
     在可视化编辑视图顶部工具栏可以预览项目的运行状态、横竖屏显示、缩放比例、更改设备等操作
     ![项目预览](/images/user-guide/项目预览.gif)
-    </div>
-    
+
   #### 样式表编辑
   *左侧选择 [样式表] 进入样式表编辑模式*
   - 样式表编辑<p>
@@ -216,6 +213,9 @@
 
 #### 节点资源绑定
   - LFC节点在属性区 '参数配置'域点击预览，即可搜索选择工程中其它lfc文件进行绑定，绑定后点击跳转即可打开绑定的lfc文件
+  - Server节点在属性区 '服务绑定'域点击选择，即可选择全部可绑定的服务，点击任意服务即可完成绑定
+  - 修改容器云地址，可编辑`{Agree Studio根目录}\configuration\configServer.properties`文件最后一项`cn.com.agree.studio.config.service.address`并重启
+  ![节点资源绑定](/images/user-guide/节点资源绑定.gif)
 
 #### 变量引用视图
   右侧属性区选择'变量引用'页，即可查看 该文件中`varMap()`、`dm()`的变量引用情况，并可快速定位节点
@@ -278,7 +278,7 @@
 
 ## 8. 构建工程
   1. 顶部菜单栏选择 [文件] - [构建工程]
-  2. 等待底部状态栏显示 `工程构建成功` 即为构建成功，相关文件保存在`{Agree Studio安装目录}\studiobuild\app\build`下
+  2. 等待底部状态栏显示 `工程构建成功` 即为构建成功，相关文件保存在`{Agree Studio根目录}\studiobuild\app\build`下
   
   ![构建工程](/images/user-guide/构建工程.png)
 
