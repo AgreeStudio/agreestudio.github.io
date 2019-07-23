@@ -255,10 +255,6 @@
   ![服务发布成功](/images/user-guide/服务发布成功.png)
 
 ### 4.6 图码双行
-  <video id="video" controls="" preload="none" poster="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg">
-    <source id="mp4" src="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4" type="video/mp4">
-  </video>
-
   *打开LFC文件，展开辅助视图，选择图形命令视图*
 
 #### 4.6.1 符号及特殊标识符
