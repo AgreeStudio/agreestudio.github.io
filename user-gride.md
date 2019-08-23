@@ -389,6 +389,10 @@
   
   ![构建工程](/images/user-guide/构建工程.png)
 
-## 10. 快捷操作
+## 10. 静态资源展示模块
+  通过快捷键[ctrl + shift+C] 或顶部菜单栏选择 [视图] - [组件库资源展示] 查看Agree Studio打开工程支持的全部组件库资源
+  ![静态资源展示模块](/images/user-guide/静态资源展示模块.gif)
+
+## 11. 快捷操作
   通过快捷键[ctrl + l] 或顶部菜单栏选择 [辅助] - [热键展示] 查看Agree Studio支持的全部快捷键
   ![快捷键](/images/user-guide/快捷键.png)
