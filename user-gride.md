@@ -55,14 +55,36 @@
 ### 3.1 vue文件编辑
   在文件树双击或右键选择打开方式,vue_editor即可以可视化编辑方式打开vue文件
   #### Vue-md 页面编辑
-  1.文件打开方式新增[vue编辑器(MD模式)],支持组件库快捷键输入。
+  1.文件打开方式新增[vue编辑器(MD模式)],支持Vue语法的输入辅助。
   ![vue编辑器(MD模式)](/images/user-guide/vue编辑器(MD模式).gif)
-  #### aui组件库输入辅助提示
-  1.在MD编辑器模式下输入aui就会提示给用户，相应的组件。
-  ![输入辅助](/images/user-guide/aui输入辅助.gif)
-  #### SDK组件库输入辅助提示
-  1.在MD编辑器模式下输入AgreeASdk,SDK的组件就会提示给用户。
-  ![输入辅助](/images/user-guide/sdk输入辅助.gif)
+  #### 定制化标签及其属性的输入辅助提示
+  2.在Vue的输入辅助基础之上，提供定制化的标签及其属性的输入提示。
+  ![输入辅助](/images/user-guide/定制化标签输入辅助.gif)
+  #### 引入外部文件的输入辅助提示
+  3.引入外部文件后，支持对于对象进行属性的输入提示。
+  ![输入辅助](/images/user-guide/外部文件属性输入辅助.gif)
+   #### import快捷输入
+  4.支持快捷键以及按钮打开import快捷输入弹窗
+  ![importQuick](/images/user-guide/import快捷输入.gif)
+  #### AUI组件快捷输入
+  5.支持快捷键以及按钮打开AUI组件快捷输入弹窗
+  ![AUIQuick](/images/user-guide/AUI快捷输入.gif)
+  #### SDK组件快捷输入
+  6.支持快捷键以及按钮打开SDK组件快捷输入弹窗
+  ![SDKQuick](/images/user-guide/SDK快捷输入.gif)
+  #### metadata组件快捷输入
+  7.支持快捷键以及按钮打开SDK组件快捷输入弹窗
+  ![SDKQuick](/images/user-guide/metadata快捷输入.gif)
+  #### Vue文件的代码格式化
+  8.支持快捷键以及右击菜单对没有语法错误的Vue文件进行代码格式化。
+  ![代码格式化](/images/user-guide/代码格式化.gif)
+  #### Vue文件的语法检测
+  9.支持Vue的语法检测。
+  ![代码格式化](/images/user-guide/语法检测.gif)
+  #### Vue文件的页面实时渲染
+  9.支持Vue的页面实时渲染。
+  ![代码格式化](/images/user-guide/页面渲染.gif)
+  
 
 
   <!-- #### 可视化页面编辑
